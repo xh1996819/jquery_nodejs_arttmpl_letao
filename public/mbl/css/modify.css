@@ -1,0 +1,10 @@
+#cfmBtn {
+    width: 230px;
+}
+
+.getCode {
+    position : absolute;
+    right    : 10px;
+    top      : 10px;
+    font-size: 14px;
+}

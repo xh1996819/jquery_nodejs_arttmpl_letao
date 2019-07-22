@@ -1,0 +1,16 @@
+.mui-table-view-cell a {
+    font-size: 14px;
+}
+
+.mui-table-view-cell:first-child a {
+    font-size: 16px;
+}
+
+.mui-table-view-cell:last-child a {
+    font-size  : 16px;
+    font-weight: 600;
+}
+
+.mui-table-view {
+    margin-top: 0 !important;
+}

@@ -1,0 +1,15 @@
+.getCode {
+    position : absolute;
+    right    : 10px;
+    top      : 10px;
+    font-size: 14px;
+}
+
+#regBtn {
+    width: 230px;
+}
+
+.loginRightNow {
+    padding  : 10px;
+    font-size: 14px;
+}

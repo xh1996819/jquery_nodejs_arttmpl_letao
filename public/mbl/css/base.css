@@ -1,0 +1,150 @@
+body,
+.mui-content {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lt-header,
+.lt-footer {
+    background-color: #369;
+}
+
+.lt-header h1,
+.lt-header a,
+.lt-footer a.mui-tab-item {
+    color: #fff;
+}
+
+.lt-header h1 {
+    text-indent: 15px;
+}
+
+.lt-header h1 img {
+    height: 43px;
+}
+
+.lt-footer .mui-tab-item.mui-active {
+    color       : #ffbd39;
+    touch-action: none;
+}
+
+/* nav-links start */
+.nav-links {
+    padding: 10px;
+}
+
+.nav-links ul {
+    margin    : 0;
+    padding   : 0;
+    box-shadow: 2px 2px 5px #e4e4e4;
+}
+
+.nav-links li {
+    width     : 33.3333%;
+    float     : left;
+    list-style: none;
+}
+
+.nav-links li img {
+    width  : 100%;
+    display: block;
+}
+
+/* nav-links end */
+
+/* brand start */
+.brand,
+.product {
+    padding: 0 10px;
+}
+
+.title-pic img {
+    width  : 100%;
+    display: block;
+}
+
+.brand ul {
+    padding: 10px 0;
+    margin : 0;
+}
+
+.brand ul li {
+    float     : left;
+    list-style: none;
+    width     : 25%;
+}
+
+.brand ul li img {
+    width  : 100%;
+    display: block;
+}
+
+/* brand end */
+
+/* product start*/
+.product div:nth-child(1) img {
+    margin: 10px 0;
+}
+
+.product-content ul {
+    padding: 0;
+    margin : 0;
+}
+
+.product-content ul li {
+    width     : 50%;
+    float     : left;
+    list-style: none;
+    padding   : 5px;
+}
+
+.product-content ul li a {
+    padding   : 0 5px;
+    display   : block;
+    box-shadow: 0 0 5px #ccc;
+    overflow  : hidden;
+}
+
+.product-content ul li img {
+    width  : 100%;
+    display: block;
+}
+
+.product-content ul li .name {
+    font-size  : 14px;
+    text-align : center;
+    color      : #8F8F94;
+    display    : block;
+    padding    : 5px;
+    /* height: 44px; */
+    line-height: 18px;
+}
+
+.product-content ul li .price {
+    font-size : 12px;
+    text-align: center;
+}
+
+.product-content ul li .price span:nth-child(1) {
+    color        : #f40;
+    padding-right: 3px;
+    font-weight: 600;
+}
+
+.product-content ul li .price span:nth-child(2) {
+    color          : #ccc;
+    text-decoration: line-through;
+    padding-left   : 3px;
+}
+
+.product-content ul li a .mui-btn-primary {
+    display         : block;
+    margin          : 10px auto;
+    background-color: #369;
+    border          : 0;
+}
+
+/* product ende */

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>乐淘搜索页</title>
+    <link rel="stylesheet" href="./assets/mui/css/mui.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1268971_12b3x6uohmcg.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <script src="./assets/mui/js/mui.min.js"></script>
+    <script src="./assets/zepto/zepto.min.js"></script>
+    <script src="./assets/artTemplate/template-web.js"></script>
+    <script src="./js/public.js"></script>
+    <script src="./js/search.js"></script>
+</head>
+
+<body>
+    <header class="mui-bar mui-bar-nav lt-header">
+        <h1 class="mui-title"><img src="./images/2019-07-01_142019.jpg" alt=""></h1>
+
+        <a href="search.html" class="mui-icon iconfont icon-back mui-pull-left"></a>
+    </header>
+    <nav class="mui-bar mui-bar-tab footer lt-footer">
+        <a class="mui-tab-item mui-active" href="index.html">
+            <span class="mui-icon iconfont icon-home1"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item" href="category.html">
+            <span class="mui-icon iconfont
+            icon-all"></span>
+            <span class="mui-tab-label">分类</span>
+        </a>
+        <a class="mui-tab-item" href="cart.html">
+            <span class="mui-icon iconfont icon-cart1"></span>
+            <span class="mui-tab-label">购物车</span>
+        </a>
+        <a class="mui-tab-item" href="user.html">
+            <span class="mui-icon iconfont icon-people"></span>
+            <span class="mui-tab-label">会员中心</span>
+        </a>
+    </nav>
+    <div class="mui-content">
+        <div class="container">
+            <div class="mui-input-row mui-search">
+                <input type="search" class="mui-input-clear" placeholder="">
+            </div>
+            <button type="button" class="mui-btn mui-btn-primary" id="search_btn">搜索</button>
+            <div class="title mui-clearfix">
+                <span class="searchHistory mui-pull-left">搜索历史</span>
+                <span class="clearHistory mui-pull-right"><i class="iconfont icon-delete"></i> 清除历史</span>
+            </div>
+            <ul class="mui-table-view">
+                <li class="mui-table-view-cell">Item 1</li>
+                <li class="mui-table-view-cell">Item 2</li>
+                <li class="mui-table-view-cell">Item 3</li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/template" id="info">
+        {{each $data}}
+        <li class="mui-table-view-cell">{{$value}}</li>
+        {{/each}}
+    </script>
+</body>
+
+</html>

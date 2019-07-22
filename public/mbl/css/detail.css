@@ -1,0 +1,68 @@
+.mui-slider {
+    touch-action: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h3 {
+    font-size  : 20px;
+    font-weight: 400;
+    padding    : 0 16px;
+    line-height: 26px;
+}
+
+.size {
+    padding: 10px 15px;
+}
+
+.size p {
+    display    : inline-block;
+    float      : left;
+    line-height: 40px;
+    font-size  : 17px;
+    color      : #000;
+    margin     : 0;
+}
+
+.size span {
+    display    : block;
+    float      : left;
+    width      : 30px;
+    height     : 30px;
+    line-height: 30px;
+    text-align : center;
+    border     : 1px solid #ccc;
+    margin     : 5px;
+}
+
+.mui-row .mui-col-xs-6:first-child {
+    background-color: #f80;
+}
+
+.mui-row .mui-col-xs-6:last-child {
+    background-color: rgb(165, 59, 59);
+}
+
+.mui-row {
+    width     : 96%;
+    margin    : 20px auto;
+    text-align: center;
+    color     : aliceblue;
+}
+
+.now {
+    color    : rgb(221, 61, 12);
+    font-size: 20px;
+}
+
+.old {
+    color      : #ccc;
+    font-size  : 14px;
+    margin-left: 4px;
+}
